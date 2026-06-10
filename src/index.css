@@ -135,12 +135,22 @@ h1 {
     background: #ddd4ea;
   }
   [data-theme="light"] #hero,
-  [data-theme="light"] h1,
-  [data-theme="light"] h2,
+  
   [data-theme="light"] h3,
   [data-theme="light"] p {
     color: #bab2dd;
   }
+  [data-theme="light"] h1,
+  [data-theme="light"] h2,
+  [data-theme="light"] .about-text,
+  [data-theme="light"] .yt-now-playing, 
+  [data-theme="light"].music-api-note{
+    color:#8A7F70;
+  }
+  [data-theme="light"] .project-card {
+    background:  linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50, #12082e);
+  }
+  
 
   [data-theme="light"] nav {
     background: rgba(232, 224, 240, 0.95);
