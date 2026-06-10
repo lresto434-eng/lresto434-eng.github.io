@@ -134,20 +134,35 @@ h1 {
   [data-theme="light"] .section-wrap.alt {
     background: #ddd4ea;
   }
-  [data-theme="light"] #hero,
-  
+  [data-theme="light"] h1,
+  [data-theme="light"] h2 {
+    color: goldenrod;
+  }
+
   [data-theme="light"] h3,
   [data-theme="light"] p {
-    color: #bab2dd;
+    color: #1a0f3d;
   }
-  [data-theme="light"] h1 {
-    color:goldenrod
+
+  [data-theme="light"] .about-text p {
+    color: #1a0f3d !important;
   }
-  [data-theme="light"] h2 {
-    color:goldenrod;
+
+  [data-theme="light"] .btn {
+    color: goldenrod;
+    border-color: goldenrod;
   }
-  [data-theme="light"] .about-text{
-    color:goldenrod;
+
+  [data-theme="light"] .btn-solid {
+    background: goldenrod;
+    color: #1a1040;
+  }
+
+  [data-theme="light"] #music h2,
+  [data-theme="light"] #music p,
+  [data-theme="light"] #skills h2,
+  [data-theme="light"] #skills span {
+    color: white;
   }
  
   [data-theme="light"] .sectionlabel {
@@ -162,14 +177,12 @@ h1 {
     color: goldenrod;
   }
    [data-theme="light"] #music {
-    background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50,
-  #12082e);
+    background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50, #12082e);
     background-size: 400% 400%; 
     animation: heroGradient 10s ease-in-out infinite;
   }
 [data-theme="light"] #skills {
-    background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50,
-  #12082e);
+    background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50, #12082e);
     background-size: 400% 400%; 
     animation: heroGradient 10s ease-in-out infinite;
   }
