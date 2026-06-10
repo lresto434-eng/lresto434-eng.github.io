@@ -109,32 +109,43 @@ h1 {
     backdrop-filter: blur(8px);
 }
 
-/* ── Button ── */
-.btn {
-    display: block;
-    border: 1.5px solid rgb(231, 203, 40);
-    padding: 0.85em 2em;
-    border-radius: 50px;
-    color: rgb(231, 203, 40);
-    text-decoration: none;
-    width: fit-content;
-    margin: 0 auto;
-    transition: background 0.25s, color 0.25s;
-}
+ /* ── Theme toggle button ── */
+  .theme-toggle {
+    background: none;
+    border: 1.5px solid goldenrod;
+    color: goldenrod;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+  }
 
-.btn:hover {
-    background: rgb(231, 203, 40);
-    color: #1a1040;
-}
+ 
+  [data-theme="light"] {
+    background: #e8e0f0;
+    color: #7866c1;
+  }
 
-.btn-solid {
-    background: rgb(231, 203, 40);
-    color: #1a1040;
-}
+  [data-theme="light"] body,
+  [data-theme="light"] .section-wrap {
+    background: #e8e0f0;
+  }
 
-.btn-solid:hover {
-    background: rgb(248, 225, 95);
-}
+  [data-theme="light"] .section-wrap.alt {
+    background: #ddd4ea;
+  }
+  [data-theme="light"] #hero,
+  [data-theme="light"] h1,
+  [data-theme="light"] h2,
+  [data-theme="light"] h3,
+  [data-theme="light"] p {
+    color: #bab2dd;
+  }
+
+  [data-theme="light"] nav {
+    background: rgba(232, 224, 240, 0.95);
+  }
+
 
 /* ── Section layout ── */
 .section-wrap {

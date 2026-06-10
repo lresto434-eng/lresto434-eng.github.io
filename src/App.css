@@ -16,7 +16,42 @@
     outline-offset: 2px;
   }
 }
+ /* ── Theme toggle button ── */
+  .theme-toggle {
+    background: none;
+    border: 1.5px solid goldenrod;
+    color: goldenrod;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+  }
 
+  /* ── Dark mode overrides ── */
+  [data-theme="dark"] {
+    background: #ffffff;
+    color: #1a1040;   
+  }
+
+  [data-theme="dark"] body,
+  [data-theme="dark"] .section-wrap {
+    background: #f5f5f5;
+  }
+
+  [data-theme="dark"] .section-wrap.alt {
+    background: #e8e8e8; 
+  }
+
+  [data-theme="dark"] h1,
+  [data-theme="dark"] h2,
+  [data-theme="dark"] h3,
+  [data-theme="dark"] p {
+    color: #1a1040;
+  }
+
+  [data-theme="dark"] nav {
+    background: rgba(255, 255, 255, 0.9);
+  }
 .hero {
   position: relative;
 

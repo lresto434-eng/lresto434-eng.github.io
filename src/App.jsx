@@ -1,7 +1,8 @@
-import { useEffect } from 'react'
+import { useEffect, useContext } from 'react'
 import './index.css'
-
+import {ThemeContext} from './ThemeContext.jsx'
 export default function App() {
+  const {theme, dispatch} = useContext(ThemeContext)
   useEffect(() => {
     document.body.classList.add('js-loaded')
 
@@ -318,7 +319,7 @@ export default function App() {
   }, [])
 
   return (
-    <>
+    <div data-theme={theme}>
       <canvas id="float-canvas"></canvas>
 
       <nav>
@@ -330,8 +331,18 @@ export default function App() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#music">Music</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="https://www.linkedin.com/in/angel-resto-1301302b9/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/angel-resto-1301302b9/" target="_blank" rel="noreferrer">LinkedIn</a>
+  
+          </li>
+                    <button
+    className="theme-toggle"
+    onClick={() => dispatch({ type: 'TOGGLE' })}
+  >
+    {theme === 'light' ? '🌙' : '☀️ '}
+  </button>
         </ul>
+
+
       </nav>
 
       <section id="hero">
@@ -482,6 +493,6 @@ export default function App() {
           <a href="https://www.linkedin.com/in/angel-resto-1301302b9/" target="_blank" rel="noreferrer">LinkedIn</a>
         </p>
       </footer>
-    </>
+    </div>
   )
 }
