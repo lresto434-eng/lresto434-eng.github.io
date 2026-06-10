@@ -149,7 +149,7 @@ h1 {
     color:#e7cb28;
   }
   
-   [data-theme="light"].section-wrap.alt{
+   [data-theme="light"].section-wrap.fade-in.visible{
     background:  linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50, #12082e);
   }
   
