@@ -240,14 +240,14 @@ export default function App() {
           y: randomBetween(0, window.innerHeight),
           vx: randomBetween(-0.25, 0.25),
           vy: randomBetween(-0.25, 0.25),
-          size: randomBetween(16, 34),
-          opacity: randomBetween(0.15, 0.32),
+          size: randomBetween(14, 28),
+          opacity: randomBetween(0.07, 0.16),
           isMusic
         }
       }
 
       resize()
-      for (var i = 0; i < 40; i++) symbols.push(createSymbol(i))
+      for (var i = 0; i < 25; i++) symbols.push(createSymbol(i))
 
       var animFrameId
       function draw() {
@@ -466,7 +466,7 @@ export default function App() {
             <button id="music-search-btn">Search</button>
           </div>
           <p className="music-api-note">
-            Featured tracks &amp; search via <strong>YouTube Data API v3</strong> &nbsp;·&nbsp; <strong>YouTube IFrame API</strong>
+            Featured tracks &amp; search via <strong>YouTube Data API v3</strong> &nbsp;·&nbsp;
           </p>
           <div className="music-search-grid"></div>
         </div>
