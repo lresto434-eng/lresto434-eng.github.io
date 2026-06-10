@@ -137,9 +137,11 @@ h1 {
   [data-theme="light"] #hero,
   [data-theme="light"] h1,
   [data-theme="light"] h2,
-  [data-theme="light"] h3,
+  [data-theme="light"] h3{
+  color: #1a0d3f  !important;
+}
   [data-theme="light"] p {
-    color: #bab2dd;
+    color:#1a0d3f  !important;
   }
 
   [data-theme="light"] nav {
