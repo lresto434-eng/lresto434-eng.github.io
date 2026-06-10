@@ -109,15 +109,56 @@ h1 {
     backdrop-filter: blur(8px);
 }
 
+/* ── Hero buttons ── */
+.btn {
+    display: inline-block;
+    border: 1.5px solid goldenrod;
+    color: goldenrod;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn:hover {
+    background: goldenrod;
+    color: #1a1040;
+}
+.theme-toggle:hover{
+  background-color: linear-gradient(-45deg, #e8e0f0, #f5ecd0, #ddd4ea,
+  #ede5f5)
+}
+
+.btn-solid {
+    display: inline-block;
+    border: 1.5px solid goldenrod;
+    background: rgba(255, 255, 255, 0.08);
+    color: goldenrod;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn-solid:hover {
+    background: goldenrod;
+    color: #1a1040;
+}
+
  /* ── Theme toggle button ── */
   .theme-toggle {
     background: none;
     border: 1.5px solid goldenrod;
     color: goldenrod;
     font-size: 1.1rem;
-    border-radius: 6px;
-    padding: 0.25rem 0.6rem;
+    border-radius: 50px;
+    padding: 0.4rem 1rem;
     cursor: pointer;
+    
   }
 
  
