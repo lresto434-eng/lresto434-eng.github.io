@@ -155,6 +155,7 @@ h1 {
     color: goldenrod;
     border-color: goldenrod;
     background: rgba(232, 224, 240, 0.15);
+    border-radius: 50px;
   }
 
   [data-theme="light"] .btn:hover {
@@ -166,12 +167,14 @@ h1 {
     color: goldenrod;
     border: 1.5px solid goldenrod;
     background: #d4c8e8;
+    border-radius:50px;
   }
 
   [data-theme="light"] .btn-solid:hover {
     background: goldenrod;
     color: #1a1040;
   }
+
 
   [data-theme="light"] #music h2,
   [data-theme="light"] #music p,
@@ -182,6 +185,13 @@ h1 {
  
   [data-theme="light"] .sectionlabel {
     color: goldenrod;
+  }
+    [data-theme="light"] footer {
+    background: #2a1a50;
+  }
+  
+  [data-theme="light"] footer p {
+    color: blanchedalmond !important;
   }
 
   [data-theme="light"] .yt-now-playing {
