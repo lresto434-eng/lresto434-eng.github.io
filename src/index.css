@@ -161,10 +161,13 @@ h1 {
   [data-theme="light"] .music-api-note {
     color: goldenrod;
   }
-
-  
-  
-  [data-theme="light"] #skills {
+   [data-theme="light"] #music {
+    background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50,
+  #12082e);
+    background-size: 400% 400%; 
+    animation: heroGradient 10s ease-in-out infinite;
+  }
+[data-theme="light"] #skills {
     background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50,
   #12082e);
     background-size: 400% 400%; 
