@@ -109,6 +109,42 @@ h1 {
     backdrop-filter: blur(8px);
 }
 
+/* ── Hero buttons ── */
+.btn {
+    display: inline-block;
+    border: 1.5px solid goldenrod;
+    color: goldenrod;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn:hover {
+    background: goldenrod;
+    color: #1a1040;
+}
+
+.btn-solid {
+    display: inline-block;
+    border: 1.5px solid goldenrod;
+    background: rgba(255, 255, 255, 0.08);
+    color: goldenrod;
+    padding: 0.7rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn-solid:hover {
+    background: goldenrod;
+    color: #1a1040;
+}
+
  /* ── Theme toggle button ── */
   .theme-toggle {
     background: none;
@@ -116,7 +152,7 @@ h1 {
     color: goldenrod;
     font-size: 1.1rem;
     border-radius: 6px;
-    padding: 0.25rem 0.6rem;
+    padding: 0.4rem 1rem;
     cursor: pointer;
   }
 
@@ -271,11 +307,18 @@ p {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgb(231, 203, 40);
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 2rem;
 }
 
 .about-text {
     text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.about-text p {
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
 }
 
 /* ── Skills ── */
