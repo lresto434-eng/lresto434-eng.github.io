@@ -148,14 +148,14 @@ h1 {
     color: #1a0f3d !important;
   }
 
-  [data-theme="light"] .btn {
+  [data-theme="light"] a.btn {
     color: goldenrod;
     border-color: goldenrod;
   }
 
-  [data-theme="light"] .btn-solid {
+  [data-theme="light"] a.btn-solid {
     background: goldenrod;
-    color: #1a1040;
+    color: goldenrod;
   }
 
   [data-theme="light"] #music h2,
