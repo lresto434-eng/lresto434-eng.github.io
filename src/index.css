@@ -147,18 +147,30 @@ h1 {
   [data-theme="light"] .about-text p {
     color: #1a0f3d ;
   }
-  [data-theme="light"] .tagline{
-    color:whitesmoke;
+  [data-theme="light"] #hero .tagline {
+    color: whitesmoke;
   }
 
-  [data-theme="light"] a.btn {
+  [data-theme="light"] .btn {
     color: goldenrod;
     border-color: goldenrod;
+    background: rgba(232, 224, 240, 0.15);
   }
 
-  [data-theme="light"] a.btn-solid {
-   
-    background-color: goldenrod;
+  [data-theme="light"] .btn:hover {
+    background: goldenrod;
+    color: #1a1040;
+  }
+
+  [data-theme="light"] .btn-solid {
+    color: goldenrod;
+    border: 1.5px solid goldenrod;
+    background: #d4c8e8;
+  }
+
+  [data-theme="light"] .btn-solid:hover {
+    background: goldenrod;
+    color: #1a1040;
   }
 
   [data-theme="light"] #music h2,
