@@ -218,6 +218,9 @@ h1 {
   [data-theme="light"] nav {
     background: rgba(232, 224, 240, 0.95);
   }
+  [data-theme="light"] a.active{
+    color:rgb(218, 165, 32);
+  }
 
 
 /* ── Section layout ── */
