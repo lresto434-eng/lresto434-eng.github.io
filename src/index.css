@@ -129,10 +129,10 @@ h1 {
 .theme-toggle:hover {
   background: linear-gradient(-45deg, #e8e0f0, #f5ecd0, #ddd4ea, #ede5f5);
   background-size: 400% 400%;
-  animation: heroGradient 10s ease-in-out infinite;
+  animation: heroGradientwh 10s ease-in-out infinite;
   border-color: transparent;
   color: #1a1040;
-}
+} 
 
 .btn-solid {
     display: inline-block;
@@ -187,7 +187,7 @@ h1 {
     color:rgb(231, 203, 40);
   }
   [data-theme="light"] p {
-    color: #1a0f3d;
+    color: #f5f5f5;
   }
 
   [data-theme="light"] .about-text p {
