@@ -145,7 +145,10 @@ h1 {
   }
 
   [data-theme="light"] .about-text p {
-    color: #1a0f3d !important;
+    color: #1a0f3d ;
+  }
+  [data-theme="light"] .tagline{
+    color:whitesmoke;
   }
 
   [data-theme="light"] a.btn {
@@ -154,8 +157,8 @@ h1 {
   }
 
   [data-theme="light"] a.btn-solid {
-    background: goldenrod;
-    color: goldenrod;
+   
+    background-color: goldenrod;
   }
 
   [data-theme="light"] #music h2,
