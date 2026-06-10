@@ -126,9 +126,12 @@ h1 {
     background: goldenrod;
     color: #1a1040;
 }
-.theme-toggle:hover{
-  background-color: linear-gradient(-45deg, #e8e0f0, #f5ecd0, #ddd4ea,
-  #ede5f5)
+.theme-toggle:hover {
+  background: linear-gradient(-45deg, #e8e0f0, #f5ecd0, #ddd4ea, #ede5f5);
+  background-size: 400% 400%;
+  animation: heroGradient 10s ease-in-out infinite;
+  border-color: transparent;
+  color: #1a1040;
 }
 
 .btn-solid {
