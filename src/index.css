@@ -140,19 +140,36 @@ h1 {
   [data-theme="light"] p {
     color: #bab2dd;
   }
-  [data-theme="light"] h1,
-  [data-theme="light"] h2,
-  [data-theme="light"] .about-text,
-  [data-theme="light"] .yt-now-playing, 
-  [data-theme="light"]p.music-api-note
-  [data-theme="light"].sectionlabel{
-    color:#e7cb28;
+  [data-theme="light"] h1 {
+    color:goldenrod
   }
-  
-   [data-theme="light"].section-wrap.fade-in.visible{
-    background:  linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50, #12082e);
+  [data-theme="light"] h2 {
+    color:goldenrod;
   }
+  [data-theme="light"] .about-text{
+    color:goldenrod;
+  }
+ 
+  [data-theme="light"] .sectionlabel {
+    color: goldenrod;
+  }
+
+  [data-theme="light"] .yt-now-playing {
+    color: goldenrod; 
+  }
+
+  [data-theme="light"] .music-api-note {
+    color: goldenrod;
+  }
+
   
+  
+  [data-theme="light"] #skills {
+    background: linear-gradient(-45deg, #1a1040, #0d0c2a, #2a1a50,
+  #12082e);
+    background-size: 400% 400%; 
+    animation: heroGradient 10s ease-in-out infinite;
+  }
 
   [data-theme="light"] nav {
     background: rgba(232, 224, 240, 0.95);
