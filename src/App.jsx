@@ -260,10 +260,11 @@ export default function App() {
           if (s.x > canvas.width + 40) s.x = -20
           if (s.y < -40)               s.y = canvas.height + 20
           if (s.y > canvas.height + 40) s.y = -20
+          var isLight = !!document.querySelector('[data-theme="light"]')
           ctx.save()
-          ctx.globalAlpha = s.opacity
+          ctx.globalAlpha = isLight ? Math.min(s.opacity * 1.8, 0.55) : s.opacity
           ctx.font = s.size + 'px Georgia, serif'
-          ctx.fillStyle = s.isMusic ? 'rgb(231, 203, 40)' : '#c8b8f0'
+          ctx.fillStyle = isLight ? 'rgb(180, 130, 10)' : (s.isMusic ? 'rgb(231, 203, 40)' : '#c8b8f0')
           ctx.fillText(s.text, s.x, s.y)
           ctx.restore()
         })
